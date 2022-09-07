@@ -1,0 +1,60 @@
+.page {
+    overflow: hidden;
+    height: 100vh;
+}
+
+main {
+    overflow-y: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #fff;
+}
+
+aside {
+    border-right: 1px solid #ededed;
+    background: #E5A889;
+    flex: 1 0 20%;
+    padding: 1rem;
+    /* border-radius: 20px; */
+    align-items: center;
+    text-align: center;
+}
+
+
+/* .stu-img {
+    margin: auto;
+    justify-content: center;
+} */
+
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.mentor-feedback {
+    margin-bottom: 20px;
+    background-color: #E5A889;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.wrapper_inner {
+    width: 90%;
+    margin: 0px auto;
+}

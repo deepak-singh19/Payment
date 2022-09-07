@@ -1,0 +1,57 @@
+.mpage {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f3ef;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.mtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Merriweather Sans;
+    flex: 2;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.cquote {
+    color: #E5a889;
+}
+
+.mquote {
+    font-size: 1.9rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-top: 20pxl;
+}
+
+.mimage {
+    flex: 1;
+    /* height: 110%; */
+}
+
+.wpimg {
+    width: 700px;
+    height: 300px;
+}
+
+.helpquote {
+    /* font-size: 1.9rem; */
+    font-weight: bold;
+    /* padding: 20px; */
+    line-height: 1.7rem;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.BUTTON {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}

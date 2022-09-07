@@ -1,0 +1,146 @@
+.page {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    font-family: Lora;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.stu-details {
+    background: #E5A889;
+    width: 25%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* align-self: center; */
+    /* justify-content: center; */
+}
+
+.stu-img {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* MENTOR */
+
+.scroll {
+    overflow-y: auto;
+    width: 100%;
+}
+
+.mentors {
+    width: 100%;
+}
+
+.mentor-img {
+    align-self: center;
+}
+
+.mentor-feedback {
+    display: flex;
+    background-color: #E5A889;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.mentor-info {
+    background-color: #F8F3EF;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+    padding: 20px 50px 25px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    ;
+}
+
+button {
+    background-color: #E5A889;
+    padding: 5px;
+    border-radius: 5px;
+    ;
+}
+
+
+/* USER */
+
+.user {
+    width: 100%;
+}
+
+
+/* MEDIA QIUERY */
+
+@media (max-width:840px) {
+    .stu-details {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+    }
+    .stu-picture {
+        width: 5rem;
+        height: auto;
+    }
+    .mentor-info {
+        align-self: center;
+        font-size: 0.8rem;
+    }
+    /* .mentor-picture {
+        width: 5rem;
+        height: auto;
+    }  */
+}
+
+@media (max-width:520px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .stu-details {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .stu-img {
+        margin-bottom: 5px;
+    }
+    .stu-picture {
+        width: 5rem;
+        height: auto;
+    }
+    .mentor-feedback {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mentor-img {
+        align-self: center;
+    }
+    .mentor-picture {
+        width: 5rem;
+        height: auto;
+    }
+    .mentor-info {
+        align-self: center;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* USER PAGE */
+
+@media(max-width:520px) {
+    /* .myProfile {
+        display: flex;
+        flex-direction: column; */
+}
